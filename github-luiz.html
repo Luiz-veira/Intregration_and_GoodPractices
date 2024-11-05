@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-<!-- Todas as apresentações foram boas do seu jeito individual -->
-<!-- um comentario -->
+    <!-- Todas as apresentações foram boas do seu jeito individual -->
 
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: sans-serif;
         }
 
-        header{
-            width: 90vh;
+        header {
+            width: 90vw;
             height: 5em;
             margin: auto;
             display: flex;
@@ -28,30 +27,47 @@
             color: aliceblue;
         }
 
-        nav{
-            width: 90vh;
-            height: 3em;
+        nav {
+            width: 90vw;
+            height: 2.5em;
             background-color: #4B0082;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             margin: auto;
         }
 
-        main{
-            width: 90vh;
+        button {
+            height: 1.9em;
+            width: 6em;
+            background-color: #320055;
+            border-radius: 1em;
+        }
+
+        button:hover {
+            transition: 1s;
+            background-color: #800080;
+        }
+
+        button>a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        main {
+            width: 90vw;
             padding: 1em;
             margin: auto;
             background-color: #4B0082;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
+            color: aliceblue;
         }
 
-
-
-        footer{
-            width: 90vh;
+        footer {
+            width: 90vw;
             background-color: #4B0082;
             margin: auto;
             display: flex;
@@ -59,8 +75,8 @@
             align-items: end;
             padding: 0.5em;
             height: 3em;
+            color: aliceblue;
         }
-
     </style>
 </head>
 
@@ -70,7 +86,7 @@
     </header>
 
     <nav>
-         <!-- <span id="burger" class="material-symbols-outlined" onclick="menuClick()">
+        <!-- <span id="burger" class="material-symbols-outlined" onclick="menuClick()">
         menu
         </span> -->
         <button><a href="">Página 1</a></button>
@@ -79,7 +95,21 @@
     </nav>
 
     <main>
-        
+        <h2>Introdução sobre o GitHub</h2>
+        <article class="classe">
+            <div class="texto">
+                <p>
+                    GitHub é uma plataforma de hospedagem e colaboração de código, amplamente usada por desenvolvedores
+                    para gerenciar e compartilhar seus projetos de software. Ele é baseado no sistema de controle de
+                    versão Git, que permite aos desenvolvedores rastrear mudanças no código-fonte ao longo do tempo.
+                    Isso facilita o trabalho em equipe, permitindo que várias pessoas contribuam em um projeto
+                    simultaneamente sem risco de sobrescrever ou perder alterações feitas por outros.
+
+                    Além de armazenar e versionar o código, o GitHub fornece diversas ferramentas de colaboração, como:
+                </p>
+            </div>
+            <img src="" alt="">
+        </article>
     </main>
 
     <footer>
